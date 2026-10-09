@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eaf4ff">
+  <meta name="description" content="Bindu's portfolio — Computer Science student, developer in progress, and passionate problem solver.">
+  <title>My Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bindu home">
+      <span class="brand-mark">B</span><span>bindu<span class="brand-dot">.</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="nav-pill" id="primary-nav" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#education">Education</a>
+      <a class="nav-link" href="#certificates">Certificates</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> COMPUTER SCIENCE STUDENT</p>
+        <h1 id="hero-title">Developer in Progress,<br><span class="text-accent">Problem Solver</span> by Passion.</h1>
+        <p class="hero-description">I'm a Computer Science student who loves exploring new ideas, experimenting with technology, and turning concepts into real projects. I believe every project is an opportunity to learn something new and become a better developer.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View My Projects <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="mailto:bindu200712@gmail.com">Connect With Me <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> Curious mind. Practical ideas. Always learning.</div>
+      </div>
+
+      <div class="hero-art" aria-label="Illustration of a laptop with code symbols" role="img">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <span class="float-symbol symbol-code">&lt;/&gt;</span>
+        <span class="float-symbol symbol-star">✳</span>
+        <span class="float-symbol symbol-plus">＋</span>
+        <span class="float-symbol symbol-sparkle">✦</span>
+        <div class="art-card art-card-back"></div>
+        <div class="laptop">
+          <div class="laptop-screen">
+            <div class="screen-top"><i></i><i></i><i></i><span>hello_world.py</span></div>
+            <div class="code-lines">
+              <p><span class="code-purple">def</span> <span class="code-blue">keep_learning</span>():</p>
+              <p class="indent"><span class="code-pink">ideas</span> = <span class="code-yellow">"curiosity"</span></p>
+              <p class="indent"><span class="code-purple">return</span> ideas</p>
+              <p class="code-comment"># build something useful</p>
+              <p><span class="code-blue">keep_learning</span>() <b class="cursor-blink">▍</b></p>
+            </div>
+          </div>
+          <div class="laptop-base"><div class="trackpad"></div></div>
+        </div>
+        <div class="mini-note"><span class="mini-note-icon">✦</span><span>learning by<br>building</span></div>
+        <div class="art-card art-card-front"><span class="tiny-check">✓</span><span>One idea at a time</span></div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About section"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section section-tint" id="about" aria-labelledby="about-title">
+      <div class="section-shell about-layout">
+        <div class="section-heading">
+          <p class="section-kicker">A LITTLE ABOUT ME</p>
+          <h2 id="about-title">Curious by nature.<br><span class="text-accent">Driven by impact.</span></h2>
+          <span class="heading-underline"></span>
+        </div>
+        <div class="about-copy reveal">
+          <p>I'm pursuing an Integrated M.Tech in Computer Science at VIT, where I'm building a strong foundation in programming, data, and intelligent systems.</p>
+          <p>I enjoy exploring how technology can turn complex problems into practical, useful solutions. From machine learning experiments to web projects, I like learning by doing, improving through feedback, and paying attention to the real people a solution is meant to help.</p>
+          <p>My goal is to keep growing into a developer who combines thoughtful problem-solving with innovation that makes a meaningful difference.</p>
+          <div class="about-highlights">
+            <div><span class="highlight-number">01</span><span>Explore ideas</span></div>
+            <div><span class="highlight-number">02</span><span>Build solutions</span></div>
+            <div><span class="highlight-number">03</span><span>Keep improving</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="section-shell">
+        <div class="section-heading section-heading-centered">
+          <p class="section-kicker">THINGS I'VE BEEN BUILDING</p>
+          <h2 id="projects-title"><span class="text-accent">Projects</span></h2>
+          <span class="heading-underline"></span>
+          <p class="section-intro">A few projects where I've explored ideas, tested approaches, and learned along the way.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-index">01</div>
+            <div class="project-content">
+              <div class="project-topline"><span class="project-type">MACHINE LEARNING</span><span class="project-symbol" aria-hidden="true">↗</span></div>
+              <h3>AI-Based Crop Yield Prediction Using XGBoost</h3>
+              <p>A machine learning project that predicts crop yield from environmental and agricultural data, with XGBoost selected after comparison with Random Forest.</p>
+              <div class="tag-list"><span>Python</span><span>XGBoost</span><span>Random Forest</span></div>
+            </div>
+          </article>
+          <article class="project-card project-card-blue reveal">
+            <div class="project-index">02</div>
+            <div class="project-content">
+              <div class="project-topline"><span class="project-type">CRYPTOGRAPHY &amp; SECURITY</span><span class="project-symbol" aria-hidden="true">⌘</span></div>
+              <h3>Post-Quantum Secure Software Update Verification and Cryptographic Migration Framework</h3>
+              <p>A security-focused project exploring how software updates can be verified and how systems can prepare to migrate toward post-quantum cryptography.</p>
+              <div class="tag-list"><span>Cryptography</span><span>Software Security</span><span>Post-Quantum</span></div>
+            </div>
+          </article>
+          <article class="project-card project-card-lilac reveal">
+            <div class="project-index">03</div>
+            <div class="project-content">
+              <div class="project-topline"><span class="project-type">WEB APPLICATION</span><span class="project-symbol" aria-hidden="true">✳</span></div>
+              <h3>Priority-Based Intelligent Blood Donor Matching System</h3>
+              <p>A system concept designed to help match blood requests with suitable donors and coordinate emergency responses based on priority.</p>
+              <div class="tag-list"><span>JavaScript</span></div>
+            </div>
+          </article>
+          <article class="project-card project-card-sky reveal">
+            <div class="project-index">04</div>
+            <div class="project-content">
+              <div class="project-topline"><span class="project-type">DEEP LEARNING</span><span class="project-symbol" aria-hidden="true">◎</span></div>
+              <h3>Deep Learning-Based Detection of Invasive Ductal Carcinoma Using CNN</h3>
+              <p>A computer vision project that uses a convolutional neural network to classify image samples for invasive ductal carcinoma detection.</p>
+              <div class="tag-list"><span>Python</span><span>CNN</span></div>
+            </div>
+          </article>
+          <article class="project-card project-card-mist reveal">
+            <div class="project-index">05</div>
+            <div class="project-content">
+              <div class="project-topline"><span class="project-type">DATA ANALYTICS</span><span class="project-symbol" aria-hidden="true">▥</span></div>
+              <h3>Coffee Shop Sales Analysis</h3>
+              <p>An exploratory analysis of coffee shop transactions to understand revenue trends, popular products, store performance, and customer purchasing patterns.</p>
+              <div class="tag-list"><span>Python</span><span>Google Colab</span></div>
+            </div>
+          </article>
+        </div>
+        <p class="projects-note"><span aria-hidden="true">✦</span> Each project is a new opportunity to learn, experiment, and improve.</p>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="education" aria-labelledby="education-title">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">MY LEARNING JOURNEY</p>
+          <h2 id="education-title">Education</h2>
+          <span class="heading-underline"></span>
+        </div>
+        <article class="education-card reveal">
+          <div class="education-icon" aria-hidden="true">✦</div>
+          <div class="education-details">
+            <p class="education-label">INTEGRATED PROGRAM</p>
+            <h3>Integrated M.Tech in Computer Science</h3>
+            <p class="education-school">Vellore Institute of Technology (VIT)</p>
+          </div>
+          <div class="education-year"><span>Expected graduation</span><strong>2029</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="certificates" aria-labelledby="certificates-title">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">MILESTONES &amp; LEARNING</p>
+          <h2 id="certificates-title">Certificates</h2>
+          <span class="heading-underline"></span>
+        </div>
+        <article class="certificate-card reveal">
+          <div class="certificate-art" aria-hidden="true">
+            <div class="certificate-sheet"><span class="certificate-seal">✦</span><span class="certificate-rule"></span><span class="certificate-rule short"></span><span class="certificate-sign"></span></div>
+          </div>
+          <div class="certificate-details">
+            <p class="education-label">JOB SIMULATION</p>
+            <h3>Deloitte Australia Cyber Job Simulation</h3>
+            <p class="certificate-issuer">Forage</p>
+            <p class="certificate-date"><span class="calendar-icon" aria-hidden="true">▦</span> May 2026</p>
+            <p class="certificate-note">Certificate preview can be added when the original file is available.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="skills" aria-labelledby="skills-title">
+      <div class="section-shell">
+        <div class="section-heading section-heading-centered">
+          <p class="section-kicker">TOOLS IN MY TOOLKIT</p>
+          <h2 id="skills-title">Skills &amp; <span class="text-accent">Technologies</span></h2>
+          <span class="heading-underline"></span>
+          <p class="section-intro">Technologies I've worked with and continue to strengthen.</p>
+        </div>
+        <div class="skill-cloud reveal" aria-label="Skills">
+          <span class="skill-tag skill-tag-blue">C</span>
+          <span class="skill-tag skill-tag-white">C++</span>
+          <span class="skill-tag skill-tag-lilac">Python</span>
+          <span class="skill-tag skill-tag-white">HTML</span>
+          <span class="skill-tag skill-tag-blue">CSS</span>
+          <span class="skill-tag skill-tag-white">JavaScript</span>
+          <span class="skill-tag skill-tag-lilac">SQL</span>
+          <span class="skill-tag skill-tag-blue">Machine Learning</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="exploring" aria-labelledby="exploring-title">
+      <div class="section-shell exploring-layout">
+        <div class="section-heading">
+          <p class="section-kicker">WHAT'S NEXT</p>
+          <h2 id="exploring-title">Currently <span class="text-accent">Exploring</span></h2>
+          <span class="heading-underline"></span>
+          <p class="exploring-copy">I'm always curious about what's possible. These are a few areas I'm exploring and growing in right now.</p>
+        </div>
+        <div class="exploring-tags reveal">
+          <span><i>✦</i> Machine Learning</span>
+          <span><i>◌</i> Deep Learning</span>
+          <span><i>⌘</i> Web Development</span>
+          <span><i>▥</i> Data Analytics</span>
+          <span><i>↗</i> DSA &amp; Problem Solving</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="fun-facts" aria-labelledby="fun-title">
+      <div class="section-shell">
+        <div class="section-heading section-heading-centered">
+          <p class="section-kicker">BEYOND THE SCREEN</p>
+          <h2 id="fun-title">Fun Facts <span class="text-accent">I Love</span></h2>
+          <span class="heading-underline"></span>
+        </div>
+        <div class="fun-grid">
+          <article class="fun-card reveal"><span class="fun-icon" aria-hidden="true">♨</span><h3>Cooking</h3><p>I don't know Cooking But I like to Cook.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-decoration contact-decoration-one"></div>
+      <div class="contact-decoration contact-decoration-two"></div>
+      <div class="section-shell contact-inner">
+        <p class="section-kicker">LET'S CONNECT</p>
+        <h2 id="contact-title">Have an idea?<br><span>Let's make it happen.</span></h2>
+        <p class="contact-description">I'm always happy to connect, exchange ideas, and learn from people building meaningful things.</p>
+        <a class="button button-light" href="mailto:bindu200712@gmail.com">Say Hello <span aria-hidden="true">↗</span></a>
+        <div class="social-links" aria-label="Contact links">
+          <a class="social-icon" href="https://www.linkedin.com/in/bindu-m-0526b9374" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.7H2.1V22h3.1V8.7ZM3.65 2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6ZM22 14.4c0-4-2.1-5.9-4.9-5.9-2.3 0-3.3 1.3-3.9 2.2V8.7h-3.1V22h3.1v-7.4c0-2 .4-3.9 2.8-3.9s2.4 2.2 2.4 4V22h3.1l.5-7.6Z"/></svg>
+          </a>
+          <a class="social-icon" href="mailto:bindu200712@gmail.com" aria-label="Send Bindu an email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h18a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm9 8.1L3.5 6.7v.2l8.5 5.6 8.5-5.6v-.2L12 12.1Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">bindu<span>.</span></a>
+    <p>Learning, building, and becoming — one project at a time.</p>
+    <p class="copyright">© <span id="current-year">2026</span> Bindu. Made with curiosity.</p>
+  </footer>
+</body>
+</html>
